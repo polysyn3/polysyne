@@ -1,69 +1,201 @@
-import Image from "next/image";
-
+import Link from "next/link";
+import { ArrowRight, ArrowUpRight, ChevronRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Reveal } from "@/components/reveal";
+import { SystemArt } from "@/components/system-art";
+import { Dashboard } from "@/components/dashboard";
+import { OperoMark } from "@/components/brand";
+import { Icon } from "@/components/icons";
+import {
+  Eyebrow,
+  FinalCTA,
+  IndustrySection,
+  VisionSection,
+} from "@/components/sections";
+import { principles, processSteps } from "@/content/site";
+import { pageMetadata } from "@/lib/seo";
+export const metadata = pageMetadata(
+  "Technology built for the way businesses evolve",
+  "Polysyne builds purposeful business technology. Discover Opero, our business operations platform currently in development.",
+  "/",
+);
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main id="main">
+      <section className="home-hero">
+        <div className="container hero-grid">
+          <div className="hero-copy">
+            <Reveal>
+              <Eyebrow dot>POLYSYNE — BUILDING WHAT&apos;S NEXT</Eyebrow>
+              <h1>
+                Technology built
+                <br className="desktop-only" /> for the way
+                <br className="desktop-only" />
+                <span> businesses evolve.</span>
+              </h1>
+              <p>
+                At Polysyne, we build intelligent, scalable software solutions
+                that simplify operations, connect workflows, and help businesses
+                grow with confidence.
+              </p>
+              <div className="button-row">
+                <Button asChild>
+                  <Link href="/products/opero">
+                    Explore Opero <ArrowUpRight size={18} />
+                  </Link>
+                </Button>
+                <Button asChild variant="secondary">
+                  <Link href="/contact">
+                    Get in Touch <ArrowRight size={17} />
+                  </Link>
+                </Button>
+              </div>
+              <div className="hero-smallprint">
+                <span className="small-cross">+</span> Thoughtfully engineered.
+                Built for real business.
+              </div>
+            </Reveal>
+          </div>
+          <SystemArt />
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className="container hero-bottom">
+          <span>INDEPENDENT THINKING. CONNECTED SYSTEMS.</span>
+          <Link href="#mission">
+            Discover Polysyne <span>↓</span>
+          </Link>
         </div>
-      </main>
-    </div>
+      </section>
+      <section id="mission" className="section mission-section">
+        <div className="container">
+          <Reveal>
+            <div className="section-intro">
+              <div>
+                <Eyebrow>COMPLEXITY, MEET CLARITY</Eyebrow>
+                <h2>
+                  Making complex
+                  <br />
+                  <span>operations feel simple.</span>
+                </h2>
+              </div>
+              <p>
+                Businesses shouldn&apos;t have to fight their tools to move
+                forward. We develop software that brings clarity to complex
+                processes, reduces operational friction, and creates room for
+                meaningful growth.
+              </p>
+            </div>
+          </Reveal>
+          <div className="principles-grid">
+            {principles.map((principle, i) => (
+              <Reveal key={principle.title} delay={i * 0.06}>
+                <div className="principle-top">
+                  <Icon name={principle.icon} />
+                  <span>0{i + 1}</span>
+                </div>
+                <h3>{principle.title}</h3>
+                <p>{principle.description}</p>
+                <span className="principle-detail">{principle.detail}</span>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section className="section featured-section">
+        <div className="container">
+          <Reveal>
+            <div className="featured-top">
+              <div>
+                <Eyebrow>INTRODUCING OPERO</Eyebrow>
+                <div className="product-name">
+                  <OperoMark />
+                  <span>opero</span>
+                  <span className="development-badge">
+                    <span className="status-dot" /> In development
+                  </span>
+                </div>
+                <h2>
+                  One platform.
+                  <br />
+                  Different businesses.
+                  <br />
+                  <span>Smarter operations.</span>
+                </h2>
+              </div>
+              <div className="featured-description">
+                <p>
+                  Opero is Polysyne&apos;s flagship multi-tenant business
+                  operations platform, designed to help businesses manage their
+                  essential workflows through a unified, adaptable digital
+                  environment.
+                </p>
+                <div className="button-row">
+                  <Button asChild>
+                    <Link href="/products/opero">
+                      Discover Opero <ArrowUpRight size={17} />
+                    </Link>
+                  </Button>
+                  <Link
+                    className="text-link"
+                    href="/products/opero#early-access"
+                  >
+                    Join the Early Access List <ChevronRight size={17} />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </Reveal>
+          <Reveal className="featured-dashboard">
+            <Dashboard />
+          </Reveal>
+          <div className="product-caption">
+            <span>ONE CONNECTED EXPERIENCE</span>
+            <p>
+              Workflows. Customers. Schedules. A clearer view of your business.
+            </p>
+            <Link href="/products">
+              Our product philosophy <ArrowUpRight size={15} />
+            </Link>
+          </div>
+        </div>
+      </section>
+      <section className="section process-section">
+        <div className="container">
+          <Reveal>
+            <Eyebrow>HOW WE THINK</Eyebrow>
+            <h2>
+              Built around
+              <br />
+              <span>real business problems.</span>
+            </h2>
+            <p className="section-description">
+              Good software starts with understanding.
+              <br />
+              Our process keeps the business at the center.
+            </p>
+          </Reveal>
+          <div className="process-grid">
+            {processSteps.map((step, i) => (
+              <Reveal
+                className="process-step"
+                key={step.title}
+                delay={i * 0.07}
+              >
+                <div className="process-number">
+                  <span>0{i + 1}</span>
+                  <i />
+                  <ArrowRight size={16} />
+                </div>
+                <span className="process-label">{step.label}</span>
+                <h3>{step.title}</h3>
+                <p>{step.description}</p>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+      <IndustrySection />
+      <VisionSection />
+      <FinalCTA />
+    </main>
   );
 }

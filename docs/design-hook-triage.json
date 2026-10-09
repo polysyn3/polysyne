@@ -1,0 +1,2712 @@
+{
+  "summary": "All findings were documentation gaps in the reviewed, existing visual system; runtime styling was preserved.",
+  "counts": {
+    "total": 304,
+    "colors": 106,
+    "fontSizes": 181,
+    "radii": 17
+  },
+  "suppressed": [],
+  "reviewedValues": [
+    {
+      "rule": "design-system-color",
+      "value": "#7972c4",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/api/og/route.tsx",
+          "line": 102,
+          "context": "style={{"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#514b83",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/api/og/route.tsx",
+          "line": 115,
+          "context": "style={{"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-radius",
+      "value": "3px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 103,
+          "context": ":focus-visible {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1162,
+          "context": ".task-check {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1476,
+          "context": ".tiny-status {"
+        }
+      ],
+      "reason": "Existing focus/control/container radius or geometric-art curvature; document its actual role."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#9294ff44",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 162,
+          "context": ".button-primary {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "11px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 194,
+          "context": ".button-small {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1223,
+          "context": ".schedule-event > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1292,
+          "context": ".process-number > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1351,
+          "context": ".industry-item p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1447,
+          "context": ".footer-brand p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1457,
+          "context": ".footer-column h2 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1932,
+          "context": ".platform-foundation > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1954,
+          "context": ".platform-explanation p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2010,
+          "context": ".contact-topics p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2021,
+          "context": ".direct-contact {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2115,
+          "context": ".field label {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2138,
+          "context": ".form-control {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2206,
+          "context": ".form-submit {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2221,
+          "context": ".form-failure {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2453,
+          "context": ".principles-grid p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2530,
+          "context": ".process-step p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2587,
+          "context": ".social-placeholder {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2722,
+          "context": ".hero-copy .button-row .button {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2915,
+          "context": ".cta-actions .button {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2944,
+          "context": ".capability p {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#d4d4dc",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 207,
+          "context": ".text-link {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "25px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 250,
+          "context": ".brand {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1718,
+          "context": ".opero-hero-wordmark {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#e6e6ee",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 258,
+          "context": ".brand-mark {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#000b",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 308,
+          "context": ".mobile-dialog::backdrop {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "26px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 332,
+          "context": ".mobile-nav-panel nav a {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2843,
+          "context": ".dashboard-stat strong {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "13px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 337,
+          "context": ".mobile-nav-panel > p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 597,
+          "context": ".section-intro > p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 706,
+          "context": ".featured-description > p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1227,
+          "context": ".schedule-event h4 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1273,
+          "context": ".section-description {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1404,
+          "context": ".vision-section p:not(.eyebrow) {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1546,
+          "context": ".portfolio-product-copy > p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1631,
+          "context": ".portfolio-outlook p:not(.eyebrow) {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1644,
+          "context": ".story-layout p:not(.eyebrow) {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1668,
+          "context": ".mission-vision-grid p:not(.eyebrow) {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1682,
+          "context": ".values-intro p:not(.eyebrow) {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1772,
+          "context": ".problem-list p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1986,
+          "context": ".lead-copy > p:not(.eyebrow) {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2251,
+          "context": ".form-success p:not(.eyebrow) {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2398,
+          "context": ".hero-copy > div > p:not(.eyebrow) {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2603,
+          "context": ".page-hero > div > p:not(.eyebrow) {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2639,
+          "context": ".opero-hero > div > p:not(.eyebrow) {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2890,
+          "context": ".industry-item h3 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "9px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 358,
+          "context": ".hero-copy .eyebrow {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 541,
+          "context": ".art-label {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 616,
+          "context": ".principle-top > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 694,
+          "context": ".development-badge {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 809,
+          "context": ".demo-org {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 881,
+          "context": ".demo-person {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 946,
+          "context": ".dashboard-heading p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1034,
+          "context": ".widget-title h4 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1231,
+          "context": ".schedule-event p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1247,
+          "context": ".customer-table-head {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1269,
+          "context": ".sample-note {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1359,
+          "context": ".section-footnote {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1691,
+          "context": ".values-list > div > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1827,
+          "context": ".capability > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1886,
+          "context": ".platform-org p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1941,
+          "context": ".platform-capabilities > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1976,
+          "context": ".lead-copy .eyebrow {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2124,
+          "context": ".field label > small {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2192,
+          "context": ".privacy-details {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2405,
+          "context": ".hero-smallprint {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2758,
+          "context": ".principle-detail {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2768,
+          "context": ".featured-description .text-link {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2866,
+          "context": ".product-caption p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2970,
+          "context": ".platform-foundation > span {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "68px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 363,
+          "context": ".hero-copy h1 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b9b9c4",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 367,
+          "context": ".hero-copy h1 > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "14px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 372,
+          "context": ".hero-copy > div > p:not(.eyebrow) {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1347,
+          "context": ".industry-item h3 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1511,
+          "context": ".page-hero > div > p:not(.eyebrow) {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1585,
+          "context": ".dashboard-compact .dashboard-heading h3 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1732,
+          "context": ".opero-hero > div > p:not(.eyebrow) {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1882,
+          "context": ".platform-org h3 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2544,
+          "context": ".industry-item h3 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "8px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 397,
+          "context": ".hero-bottom {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 731,
+          "context": ".product-caption > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 761,
+          "context": ".concept-bar {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 860,
+          "context": ".nav-count {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 870,
+          "context": ".sidebar-bottom > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 893,
+          "context": ".avatar {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 912,
+          "context": ".dashboard-topbar {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 977,
+          "context": ".dashboard-stat > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1118,
+          "context": ".activity-item {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1147,
+          "context": ".task-row {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1154,
+          "context": ".task-row small {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1265,
+          "context": ".customer-row .task-status {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1493,
+          "context": ".footer-note {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1521,
+          "context": ".page-hero-meta {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2066,
+          "context": ".form-header .eyebrow {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2214,
+          "context": ".form-security {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2393,
+          "context": ".hero-copy .eyebrow {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2428,
+          "context": ".hero-bottom a {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2459,
+          "context": ".principle-detail {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2486,
+          "context": ".demo-org {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2533,
+          "context": ".process-label {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2673,
+          "context": ".platform-org p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2761,
+          "context": ".product-name .development-badge {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2794,
+          "context": ".dashboard-nav button {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2827,
+          "context": ".dashboard-heading p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2896,
+          "context": ".section-footnote {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2910,
+          "context": ".cta-inner .eyebrow {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2922,
+          "context": ".page-hero .eyebrow {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2973,
+          "context": ".platform-capabilities > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 3010,
+          "context": ".schedule-days span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 3025,
+          "context": ".customer-row {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#ddd",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 410,
+          "context": ".hero-bottom a span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#5352ce22",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 425,
+          "context": ".art-ambient {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#8786c436",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 434,
+          "context": ".art-lines {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#7f7ba514",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 442,
+          "context": ".art-orbit {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-radius",
+      "value": "53px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 468,
+          "context": ".sculpture-ring {"
+        }
+      ],
+      "reason": "Existing focus/control/container radius or geometric-art curvature; document its actual role."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#434081",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 481,
+          "context": ".ring-back {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#6661a80f",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 483,
+          "context": ".ring-back {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#110f2510",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 483,
+          "context": ".ring-back {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-radius",
+      "value": "43px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 500,
+          "context": ".ring-third {"
+        }
+      ],
+      "reason": "Existing focus/control/container radius or geometric-art curvature; document its actual role."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#6a62b0",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 504,
+          "context": ".ring-third {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#c5baff35",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 519,
+          "context": ".sculpture-core {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-radius",
+      "value": "15px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 520,
+          "context": ".sculpture-core {"
+        }
+      ],
+      "reason": "Existing focus/control/container radius or geometric-art curvature; document its actual role."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#0009",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 525,
+          "context": ".sculpture-core {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b4a9e7",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 530,
+          "context": ".sculpture-core .brand-mark {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b5b2c4",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 542,
+          "context": ".art-label {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#0003",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 543,
+          "context": ".art-label {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#aaa1f5",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 557,
+          "context": ".art-label-dot {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#65b5bd",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 560,
+          "context": ".art-label-dot.cyan {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "7px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 572,
+          "context": ".art-coordinate {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 771,
+          "context": ".concept-bar > span:first-child {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 828,
+          "context": ".demo-person small {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 956,
+          "context": ".demo-date {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 992,
+          "context": ".dashboard-stat small {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1041,
+          "context": ".widget-title > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1186,
+          "context": ".dashboard-disclaimer {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1572,
+          "context": ".dashboard-compact .demo-org {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2504,
+          "context": ".dashboard-stat > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2807,
+          "context": ".concept-bar {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2959,
+          "context": ".platform-org p {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 3003,
+          "context": ".form-security {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b7b4d9",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 611,
+          "context": ".principle-top {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "17px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 620,
+          "context": ".principles-grid h3 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1310,
+          "context": ".process-step h3 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1817,
+          "context": ".capability h3 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2750,
+          "context": ".principles-grid h3 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2824,
+          "context": ".dashboard-heading h3 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2859,
+          "context": ".dashboard-compact .dashboard-heading h3 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "35px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 654,
+          "context": ".product-name > span:not(.development-badge) {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#9394ff",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 671,
+          "context": ".opero-mark > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#9c9fff23",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 689,
+          "context": ".development-badge {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b7b7d2",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 691,
+          "context": ".development-badge {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-radius",
+      "value": "10px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 750,
+          "context": ".dashboard-wrap {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1784,
+          "context": ".solution-summary {"
+        }
+      ],
+      "reason": "Existing focus/control/container radius or geometric-art curvature; document its actual role."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "22px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 790,
+          "context": ".dashboard-brand {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#d0d0da",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 808,
+          "context": ".demo-org {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#71717b",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 813,
+          "context": ".demo-org > svg {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#27273e",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 821,
+          "context": ".org-avatar {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b3b3ed",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 822,
+          "context": ".org-avatar {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#94949f",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 842,
+          "context": ".dashboard-nav button {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#93939e",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 871,
+          "context": ".sidebar-bottom > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b6b6c0",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 882,
+          "context": ".demo-person {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#bcb4d5",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 892,
+          "context": ".avatar {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "6px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 898,
+          "context": ".small-avatar {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1054,
+          "context": ".chart-y {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1088,
+          "context": ".chart-column > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1102,
+          "context": ".chart-legend span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1132,
+          "context": ".activity-item small {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1169,
+          "context": ".task-status {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1474,
+          "context": ".tiny-status {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1578,
+          "context": ".dashboard-compact .demo-org small {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1597,
+          "context": ".dashboard-compact .dashboard-stat > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1612,
+          "context": ".dashboard-compact .concept-bar {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1616,
+          "context": ".dashboard-compact .concept-bar > span:first-child {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2424,
+          "context": ".hero-bottom > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2607,
+          "context": ".page-hero-meta {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2810,
+          "context": ".concept-bar > span:first-child {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2836,
+          "context": ".dashboard-stat > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2846,
+          "context": ".dashboard-stat small {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2850,
+          "context": ".dashboard-disclaimer {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 3033,
+          "context": ".customer-row .avatar {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 3036,
+          "context": ".customer-row .task-status {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#9696a3",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 913,
+          "context": ".dashboard-topbar {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-radius",
+      "value": "4px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 955,
+          "context": ".demo-date {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1171,
+          "context": ".task-status {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1943,
+          "context": ".platform-capabilities > span {"
+        }
+      ],
+      "reason": "Existing focus/control/container radius or geometric-art curvature; document its actual role."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b2b2bd",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 957,
+          "context": ".demo-date {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "27px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 986,
+          "context": ".dashboard-stat strong {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#7472bb",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1003,
+          "context": ".mini-bars i {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-radius",
+      "value": "2px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1004,
+          "context": ".mini-bars i {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1082,
+          "context": ".bar-track i {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1895,
+          "context": ".org-diagram-lines i {"
+        }
+      ],
+      "reason": "Existing focus/control/container radius or geometric-art curvature; document its actual role."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#568b96",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1007,
+          "context": ".dashboard-stat:nth-child(2) .mini-bars i {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#658377",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1010,
+          "context": ".dashboard-stat:nth-child(3) .mini-bars i {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#9494a0",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1042,
+          "context": ".widget-title > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#6663b3",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1081,
+          "context": ".bar-track i {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1108,
+          "context": ".chart-legend i {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#353348",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1085,
+          "context": ".bar-track i + i {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#92929d",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1089,
+          "context": ".chart-column > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1494,
+          "context": ".footer-note {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#90909d",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1101,
+          "context": ".chart-legend span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-radius",
+      "value": "1px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1107,
+          "context": ".chart-legend i {"
+        }
+      ],
+      "reason": "Existing focus/control/container radius or geometric-art curvature; document its actual role."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#79758d",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1111,
+          "context": ".chart-legend span + span i {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#aba6d7",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1127,
+          "context": ".activity-icon {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#93939f",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1155,
+          "context": ".task-row small {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#74748166",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1161,
+          "context": ".task-check {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#98ae9e",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1165,
+          "context": ".task-check.checked {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#98ae9e88",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1166,
+          "context": ".task-check.checked {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#32304a",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1172,
+          "context": ".task-status {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#c4bbeb",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1173,
+          "context": ".task-status {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#c1c1cc",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1177,
+          "context": ".status-to-do {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#97c1a7",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1181,
+          "context": ".status-complete {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#1f2e27",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1182,
+          "context": ".status-complete {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#adadb9",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1198,
+          "context": ".schedule-days span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#cecdff",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1204,
+          "context": ".schedule-days .active {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#7775da30",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1211,
+          "context": ".schedule-event {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#57a6b330",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1218,
+          "context": ".schedule-event.cyan {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#aaa9c0",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1224,
+          "context": ".schedule-event > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#a6a5b9",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1236,
+          "context": ".schedule-event > svg {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#777682",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1288,
+          "context": ".process-number {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b5b4c6",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1293,
+          "context": ".process-number > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#9691bc",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1305,
+          "context": ".process-label {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#adabbf",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1341,
+          "context": ".industry-item svg {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#92929e",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1361,
+          "context": ".section-footnote {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#4746ae20",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1378,
+          "context": ".vision-glow {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#a29cce",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1387,
+          "context": ".vision-mark {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "42px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1394,
+          "context": ".vision-section h2 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b1aec4",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1399,
+          "context": ".vision-section h2 span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "44px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1416,
+          "context": ".cta-inner h2 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2311,
+          "context": ".lead-copy > h2 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2919,
+          "context": ".page-hero h1 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2930,
+          "context": ".opero-hero h1 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "24px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1440,
+          "context": ".footer-brand .brand {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1600,
+          "context": ".dashboard-compact .dashboard-stat strong {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b4b1cc",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1478,
+          "context": ".tiny-status {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#93939d",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1482,
+          "context": ".social-placeholder {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "43px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1507,
+          "context": ".page-hero h1 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2385,
+          "context": ".hero-copy h1 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2693,
+          "context": ".lead-copy > h2 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "46px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1535,
+          "context": ".portfolio-product-copy .product-name > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1724,
+          "context": ".opero-hero h1 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 3064,
+          "context": ".hero-copy h1 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "30px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1541,
+          "context": ".portfolio-product-copy h2 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1790,
+          "context": ".solution-summary h3 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "5px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1619,
+          "context": ".dashboard-compact .task-status {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#aaa3cd",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1678,
+          "context": ".values-intro > svg {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#8b879e",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1692,
+          "context": ".values-list > div > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "18px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1696,
+          "context": ".values-list h3 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2879,
+          "context": ".process-step h3 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#acaacf",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1727,
+          "context": ".opero-hero h1 span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#9696fb12",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1751,
+          "context": ".opero-dashboard {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-radius",
+      "value": "18px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1752,
+          "context": ".opero-dashboard {"
+        }
+      ],
+      "reason": "Existing focus/control/container radius or geometric-art curvature; document its actual role."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b4b4bf",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1765,
+          "context": ".problem-list h3 {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#787682",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1777,
+          "context": ".problem-list p svg {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#a2a1ec17",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1783,
+          "context": ".solution-summary {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b5b1d3",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1802,
+          "context": ".solution-summary > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#aca7cc",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1813,
+          "context": ".capability > svg {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-radius",
+      "value": "13px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1840,
+          "context": ".platform-diagram {"
+        }
+      ],
+      "reason": "Existing focus/control/container radius or geometric-art curvature; document its actual role."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#9691cc26",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1849,
+          "context": ".platform-org {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#393450",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1859,
+          "context": ".platform-org > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#cfc4ff",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1860,
+          "context": ".platform-org > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#a1d3db",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1870,
+          "context": ".platform-org.cyan > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#283e42",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1871,
+          "context": ".platform-org.cyan > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#34343f",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1879,
+          "context": ".platform-org.gray > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#7e7a9538",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1896,
+          "context": ".org-diagram-lines i {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#9691cc50",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1910,
+          "context": ".platform-connectors i {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#9691cc1a",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1910,
+          "context": ".platform-connectors i {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "23px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1927,
+          "context": ".platform-foundation strong {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2352,
+          "context": ".brand {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#b8b5ce",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1933,
+          "context": ".platform-foundation > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#aaa7ba",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1945,
+          "context": ".platform-capabilities > span {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2193,
+          "context": ".privacy-details {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#d4d4de",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1960,
+          "context": ".platform-explanation strong {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "40px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1979,
+          "context": ".lead-copy h1 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "49px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 1983,
+          "context": ".lead-copy > h2 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2550,
+          "context": ".vision-section h2 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#aaa5c5",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2001,
+          "context": ".contact-topics > div > svg {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#d1cee9",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2025,
+          "context": ".direct-contact a {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#9f9bcc",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2047,
+          "context": ".early-access-notes svg {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "21px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2071,
+          "context": ".form-header h2 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#a9a5da",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2091,
+          "context": ".form-notice svg {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#c4c1df",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2099,
+          "context": ".form-notice strong {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#d2d2dc",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2116,
+          "context": ".field label {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#a9a4c5",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2121,
+          "context": ".consent-field label span > span {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#9696a2",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2126,
+          "context": ".field label > small {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#dd8b9066",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2154,
+          "context": ".form-control[aria-invalid=\"true\"] {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#e3b0b5",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2220,
+          "context": ".form-failure {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-color",
+      "value": "#acaaff",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2243,
+          "context": ".success-icon {"
+        }
+      ],
+      "reason": "Existing dark-surface, semantic state, product-preview, or geometric-art shade; document its actual palette family."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "32px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2247,
+          "context": ".form-success h2 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "55px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2289,
+          "context": ".hero-copy h1 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "36px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2372,
+          "context": "h2 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2907,
+          "context": ".cta-inner h2 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "16px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2495,
+          "context": ".dashboard-heading h3 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2658,
+          "context": ".capability h3 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2993,
+          "context": ".form-control {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "39px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2564,
+          "context": ".cta-inner h2 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "53px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2636,
+          "context": ".opero-hero h1 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    },
+    {
+      "rule": "design-system-font-size",
+      "value": "41px",
+      "disposition": "documented-intentional-value",
+      "occurrences": [
+        {
+          "file": "app/globals.css",
+          "line": 2904,
+          "context": ".vision-section h2 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2980,
+          "context": ".lead-copy h1 {"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2983,
+          "context": ".lead-copy > h2 {"
+        }
+      ],
+      "reason": "Existing responsive marketing or labeled miniature concept type step; document its role and keep miniature steps scoped by usage guidance."
+    }
+  ],
+  "additionalDocumentedFluidEndpoints": [
+    "54px",
+    "62px",
+    "66px",
+    "69px",
+    "77px"
+  ],
+  "verification": {
+    "command": "node /Users/keiru/.agents/skills/impeccable/scripts/detect.mjs --json app components",
+    "remainingFindings": 0,
+    "runtimeStylingChanged": false
+  }
+}

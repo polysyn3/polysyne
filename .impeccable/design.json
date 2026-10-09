@@ -1,0 +1,678 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-09T01:54:33.767118+00:00",
+  "title": "Design System: Polysyne",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "Background",
+        "tonalRamp": [
+          "#0003",
+          "#0004",
+          "#0007",
+          "#0009",
+          "#000b"
+        ],
+        "purpose": "Exact existing component and artwork shades extracted from globals.css and the social-image route; no synthetic interpolation."
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface"
+      },
+      "surface-raised": {
+        "role": "neutral",
+        "displayName": "Surface Raised"
+      },
+      "foreground": {
+        "role": "neutral",
+        "displayName": "Foreground",
+        "tonalRamp": [
+          "#fff",
+          "#ffffff06",
+          "#ffffff07",
+          "#ffffff08",
+          "#ffffff09",
+          "#ffffff0c",
+          "#ffffff10",
+          "#ffffff12",
+          "#ffffff14",
+          "#ffffff15",
+          "#ffffff16",
+          "#ffffff17",
+          "#ffffff20",
+          "#ffffff40"
+        ],
+        "purpose": "Exact existing component and artwork shades extracted from globals.css and the social-image route; no synthetic interpolation."
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "#09090bd9",
+          "#0b0b0e",
+          "#0c0c11",
+          "#0e0e12",
+          "#0e0e13",
+          "#101016",
+          "#11111677",
+          "#131c1e",
+          "#15141d",
+          "#15151d",
+          "#16161f",
+          "#1716244d",
+          "#17171d",
+          "#181721",
+          "#34343f",
+          "#353348",
+          "#777682",
+          "#787682",
+          "#8b879e",
+          "#92929d",
+          "#92929e",
+          "#93939d",
+          "#9696a2",
+          "#a1a1b3",
+          "#a6a6b3",
+          "#aaa7ba",
+          "#adabbf",
+          "#b1aec4",
+          "#b4b4bf",
+          "#b5b4c6",
+          "#b9b9c4",
+          "#c3c3ce",
+          "#cacad3",
+          "#ceccd9",
+          "#d2d2dc",
+          "#d4d4dc",
+          "#d4d4de",
+          "#ddd",
+          "#e6e6ee"
+        ],
+        "purpose": "Exact existing component and artwork shades extracted from globals.css and the social-image route; no synthetic interpolation."
+      },
+      "subtle": {
+        "role": "neutral",
+        "displayName": "Subtle"
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Accent",
+        "tonalRamp": [
+          "#393450",
+          "#4746ae20",
+          "#6366f104",
+          "#6366f109",
+          "#6366f10a",
+          "#6366f114",
+          "#6366f117",
+          "#6366f11b",
+          "#6366f122",
+          "#6366f140",
+          "#6366f155",
+          "#6663b3",
+          "#7e7a9538",
+          "#9294ff44",
+          "#9394ff",
+          "#9691bc",
+          "#9691cc1a",
+          "#9691cc26",
+          "#9691cc50",
+          "#9a94ed12",
+          "#9a9df221",
+          "#9c9fff23",
+          "#9f9bcc",
+          "#a29cce",
+          "#a2a1ec17",
+          "#a5a6ff22",
+          "#a5a6ff99",
+          "#a8aaff",
+          "#a9a4c5",
+          "#a9a5da",
+          "#aaa3cd",
+          "#aaa5c5",
+          "#aca7cc",
+          "#acaacf",
+          "#acaaff",
+          "#b4b1cc",
+          "#b5b1d3",
+          "#b7b4d9",
+          "#b7b7d2",
+          "#b8b5ce",
+          "#c4c1df",
+          "#cfc4ff",
+          "#d1cee9"
+        ],
+        "purpose": "Exact existing component and artwork shades extracted from globals.css and the social-image route; no synthetic interpolation."
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Accent Soft"
+      },
+      "cyan": {
+        "role": "secondary",
+        "displayName": "Cyan",
+        "tonalRamp": [
+          "#22d3ee07",
+          "#22d3ee1c",
+          "#283e42",
+          "#568b96",
+          "#57a6b330",
+          "#65b5bd",
+          "#a1d3db"
+        ],
+        "purpose": "Exact existing component and artwork shades extracted from globals.css and the social-image route; no synthetic interpolation."
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Border"
+      },
+      "primary-button": {
+        "role": "primary",
+        "displayName": "Primary Button"
+      },
+      "primary-button-hover": {
+        "role": "primary",
+        "displayName": "Primary Button Hover"
+      },
+      "secondary-button": {
+        "role": "neutral",
+        "displayName": "Secondary Button"
+      },
+      "secondary-button-text": {
+        "role": "neutral",
+        "displayName": "Secondary Button Text"
+      },
+      "light-button": {
+        "role": "neutral",
+        "displayName": "Light Button"
+      },
+      "field-background": {
+        "role": "neutral",
+        "displayName": "Field Background"
+      },
+      "field-text": {
+        "role": "neutral",
+        "displayName": "Field Text"
+      },
+      "field-placeholder": {
+        "role": "neutral",
+        "displayName": "Field Placeholder"
+      },
+      "field-error": {
+        "role": "neutral",
+        "displayName": "Field Error",
+        "tonalRamp": [
+          "#dd8b9066",
+          "#e3b0b5",
+          "#eaa0a706",
+          "#eaa0a72e"
+        ],
+        "purpose": "Exact existing component and artwork shades extracted from globals.css and the social-image route; no synthetic interpolation."
+      },
+      "art-metal": {
+        "role": "primary",
+        "displayName": "Art Metal",
+        "tonalRamp": [
+          "#110f2510",
+          "#121116c9",
+          "#161220",
+          "#211850",
+          "#242145",
+          "#25252b",
+          "#29223e",
+          "#312654",
+          "#352457",
+          "#37327c",
+          "#403766",
+          "#42366f",
+          "#434081",
+          "#514b83",
+          "#534694",
+          "#5352ce22",
+          "#6661a80f",
+          "#6a62b0",
+          "#7972c4",
+          "#7f7ba514",
+          "#858294",
+          "#8786c436",
+          "#aaa1f5",
+          "#b4a9e7",
+          "#b5b2c4",
+          "#c5baff35",
+          "#d5c9ff90",
+          "#ddd4ff80",
+          "#e1d9ff9c"
+        ],
+        "purpose": "Exact existing component and artwork shades extracted from globals.css and the social-image route; no synthetic interpolation."
+      },
+      "concept-neutral": {
+        "role": "neutral",
+        "displayName": "Concept Neutral",
+        "tonalRamp": [
+          "#0e0e13",
+          "#14141a",
+          "#15151c",
+          "#1f2e27",
+          "#242131",
+          "#272534",
+          "#27273e",
+          "#292931",
+          "#71717b",
+          "#74748166",
+          "#79758d",
+          "#85858f",
+          "#888893",
+          "#888894",
+          "#888895",
+          "#90909d",
+          "#92929d",
+          "#93939e",
+          "#93939f",
+          "#9494a0",
+          "#9696a3",
+          "#a1a1ad",
+          "#a1a1b0",
+          "#a1a1b3",
+          "#a6a5b9",
+          "#aaa9c0",
+          "#adadb9",
+          "#b2b2bd",
+          "#b6b6c0",
+          "#c1c1cc",
+          "#c5c5ce",
+          "#c5c5d0",
+          "#c9c9d2",
+          "#d0d0da"
+        ],
+        "purpose": "Exact existing component and artwork shades extracted from globals.css and the social-image route; no synthetic interpolation."
+      },
+      "concept-accent": {
+        "role": "primary",
+        "displayName": "Concept Accent",
+        "tonalRamp": [
+          "#32304a",
+          "#6366f103",
+          "#6366f10d",
+          "#6366f114",
+          "#6366f116",
+          "#6366f11a",
+          "#6366f11c",
+          "#6366f124",
+          "#6366f14c",
+          "#6663b3",
+          "#7472bb",
+          "#7775da30",
+          "#9696fb12",
+          "#aba6d7",
+          "#b3b3ed",
+          "#bcb4d5",
+          "#c4bbeb",
+          "#cecdff"
+        ],
+        "purpose": "Exact existing component and artwork shades extracted from globals.css and the social-image route; no synthetic interpolation."
+      },
+      "status-success": {
+        "role": "semantic",
+        "displayName": "Status Success",
+        "tonalRamp": [
+          "#658377",
+          "#98ae9e",
+          "#98ae9e88"
+        ],
+        "purpose": "Exact existing component and artwork shades extracted from globals.css and the social-image route; no synthetic interpolation."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Implemented base style; route-specific overrides are documented in DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Implemented base style; route-specific overrides are documented in DESIGN.md."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Implemented base style; route-specific overrides are documented in DESIGN.md."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Implemented base style; route-specific overrides are documented in DESIGN.md."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Compact uppercase brand labels."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Shared button typography."
+      },
+      "preview-status-mini": {
+        "displayName": "Preview Status Mini",
+        "purpose": "Miniature concept/coordinate caption only; not live application or body copy."
+      },
+      "preview-data-caption": {
+        "displayName": "Preview Data Caption",
+        "purpose": "Miniature concept/coordinate caption only; not live application or body copy."
+      },
+      "preview-microtext": {
+        "displayName": "Preview Microtext",
+        "purpose": "Miniature concept/coordinate caption only; not live application or body copy."
+      },
+      "caption-xs": {
+        "displayName": "Caption Xs",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "caption-small": {
+        "displayName": "Caption Small",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "label-small": {
+        "displayName": "Label Small",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "body-standard": {
+        "displayName": "Body Standard",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "input-mobile": {
+        "displayName": "Input Mobile",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "title-small": {
+        "displayName": "Title Small",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "title-standard": {
+        "displayName": "Title Standard",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "form-title": {
+        "displayName": "Form Title",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "preview-wordmark": {
+        "displayName": "Preview Wordmark",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "brand-small": {
+        "displayName": "Brand Small",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "brand-footer": {
+        "displayName": "Brand Footer",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "brand-default": {
+        "displayName": "Brand Default",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "mobile-navigation": {
+        "displayName": "Mobile Navigation",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "preview-stat": {
+        "displayName": "Preview Stat",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "product-subtitle": {
+        "displayName": "Product Subtitle",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "success-title": {
+        "displayName": "Success Title",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "product-wordmark": {
+        "displayName": "Product Wordmark",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "heading-mobile": {
+        "displayName": "Heading Mobile",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "cta-mobile": {
+        "displayName": "Cta Mobile",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "contact-heading-min": {
+        "displayName": "Contact Heading Min",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "contact-heading-mobile": {
+        "displayName": "Contact Heading Mobile",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "vision-heading-min": {
+        "displayName": "Vision Heading Min",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "page-heading-min": {
+        "displayName": "Page Heading Min",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "page-heading-mobile": {
+        "displayName": "Page Heading Mobile",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "hero-tablet": {
+        "displayName": "Hero Tablet",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "vision-tablet": {
+        "displayName": "Vision Tablet",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "opero-heading-tablet": {
+        "displayName": "Opero Heading Tablet",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "hero-compact": {
+        "displayName": "Hero Compact",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "company-hero-max": {
+        "displayName": "Company Hero Max",
+        "purpose": "Existing responsive or component type step; usage documented in DESIGN.md."
+      },
+      "vision-display": {
+        "displayName": "Vision Display",
+        "purpose": "Actual fluid company vision heading: 42\u201369px."
+      },
+      "page-display": {
+        "displayName": "Page Display",
+        "purpose": "Actual fluid Products/About page heading: 43\u201366px."
+      },
+      "opero-display": {
+        "displayName": "Opero Display",
+        "purpose": "Actual fluid Opero hero heading: 46\u201377px."
+      },
+      "contact-display": {
+        "displayName": "Contact Display",
+        "purpose": "Actual fluid Contact hero heading: 40\u201354px."
+      },
+      "mobile-company-display": {
+        "displayName": "Mobile Company Display",
+        "purpose": "Actual fluid mobile company hero heading: 43\u201362px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "primary-action",
+        "value": "inset 0 1px 0 #ffffff17, 0 3px 12px #6366f114",
+        "purpose": "Existing primary button."
+      },
+      {
+        "name": "dashboard",
+        "value": "0 18px 55px #0004",
+        "purpose": "Concept dashboard depth."
+      },
+      {
+        "name": "field-focus",
+        "value": "0 0 0 3px #6366f11b",
+        "purpose": "Focus halo paired with the field border."
+      }
+    ],
+    "motion": [
+      {
+        "name": "reveal",
+        "value": "0.6s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Visible-default, once-only in-view entrance."
+      },
+      {
+        "name": "dashboard-state",
+        "value": "0.16s",
+        "purpose": "Switching the sample dashboard view."
+      },
+      {
+        "name": "control-transition",
+        "value": "0.2s",
+        "purpose": "Button, link, and field state changes."
+      },
+      {
+        "name": "system-float",
+        "value": "9s ease-in-out infinite",
+        "purpose": "Signature sculpture animation; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow-phone",
+        "value": "480px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "767px"
+      },
+      {
+        "name": "tablet-start",
+        "value": "768px"
+      },
+      {
+        "name": "tablet-hero-type-max",
+        "value": "900px"
+      },
+      {
+        "name": "about-art-start",
+        "value": "1024px"
+      },
+      {
+        "name": "compact-layout-max",
+        "value": "1100px"
+      },
+      {
+        "name": "wide-hero-start",
+        "value": "1440px"
+      }
+    ],
+    "roundedMeta": {
+      "sculpture-core": {
+        "value": "15px",
+        "purpose": "Curvature of the geometric brand core; illustration only."
+      },
+      "sculpture-ring-small": {
+        "value": "43px",
+        "purpose": "Small interlocking ring curvature; illustration only."
+      },
+      "sculpture-ring-large": {
+        "value": "53px",
+        "purpose": "Large interlocking ring curvature; illustration only."
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Actual Button variant; the shared small size uses 34px minimum height and 14px horizontal padding.",
+      "html": "<button class=\"ds-button-primary\">Explore Opero</button>",
+      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:20px;padding:0 21px;min-height:46px;font-family:var(--font-geist-sans),Arial,sans-serif;font-size:12px;font-weight:500;border-radius:7px;border:1px solid transparent;white-space:nowrap;cursor:pointer;transition:background .2s,border-color .2s,transform .2s;background:#595bdf;color:var(--foreground,#fafafa);border-color:#9294ff44;box-shadow:inset 0 1px 0 #ffffff17,0 3px 12px #6366f114;}.ds-button-primary:hover{transform:translateY(-2px);background:#6062e5;}.ds-button-primary:focus-visible{outline:2px solid var(--ring,#a5a6ff);outline-offset:5px;border-radius:3px;}.ds-button-primary:disabled{opacity:.65;cursor:wait;}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition-duration:.01ms;}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Actual Button variant; the shared small size uses 34px minimum height and 14px horizontal padding.",
+      "html": "<button class=\"ds-button-secondary\">Explore Opero</button>",
+      "css": ".ds-button-secondary{display:inline-flex;align-items:center;justify-content:center;gap:20px;padding:0 21px;min-height:46px;font-family:var(--font-geist-sans),Arial,sans-serif;font-size:12px;font-weight:500;border-radius:7px;border:1px solid transparent;white-space:nowrap;cursor:pointer;transition:background .2s,border-color .2s,transform .2s;background:#ffffff04;border-color:#ffffff20;color:#e4e4e7;}.ds-button-secondary:hover{transform:translateY(-2px);background:#ffffff09;border-color:#ffffff40;}.ds-button-secondary:focus-visible{outline:2px solid var(--ring,#a5a6ff);outline-offset:5px;border-radius:3px;}.ds-button-secondary:disabled{opacity:.65;cursor:wait;}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition-duration:.01ms;}}"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Actual Button variant; the shared small size uses 34px minimum height and 14px horizontal padding.",
+      "html": "<button class=\"ds-button-light\">Explore Opero</button>",
+      "css": ".ds-button-light{display:inline-flex;align-items:center;justify-content:center;gap:20px;padding:0 21px;min-height:46px;font-family:var(--font-geist-sans),Arial,sans-serif;font-size:12px;font-weight:500;border-radius:7px;border:1px solid transparent;white-space:nowrap;cursor:pointer;transition:background .2s,border-color .2s,transform .2s;background:#f2f2f5;color:var(--surface,#111116);box-shadow:0 0 0 3px #ffffff06;}.ds-button-light:hover{transform:translateY(-2px);background:#fff;}.ds-button-light:focus-visible{outline:2px solid var(--ring,#a5a6ff);outline-offset:5px;border-radius:3px;}.ds-button-light:disabled{opacity:.65;cursor:wait;}@media(prefers-reduced-motion:reduce){.ds-button-light{transition-duration:.01ms;}}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Actual Button variant; the shared small size uses 34px minimum height and 14px horizontal padding.",
+      "html": "<button class=\"ds-button-ghost\">Explore Opero</button>",
+      "css": ".ds-button-ghost{display:inline-flex;align-items:center;justify-content:center;gap:20px;padding:0 21px;min-height:46px;font-family:var(--font-geist-sans),Arial,sans-serif;font-size:12px;font-weight:500;border-radius:7px;border:1px solid transparent;white-space:nowrap;cursor:pointer;transition:background .2s,border-color .2s,transform .2s;background:none;color:var(--muted,#a1a1aa);}.ds-button-ghost:hover{transform:translateY(-2px);}.ds-button-ghost:focus-visible{outline:2px solid var(--ring,#a5a6ff);outline-offset:5px;border-radius:3px;}.ds-button-ghost:disabled{opacity:.65;cursor:wait;}@media(prefers-reduced-motion:reduce){.ds-button-ghost{transition-duration:.01ms;}}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Shared dark field with visible focus and invalid state.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-email\">Email *</label><input class=\"ds-field\" id=\"ds-email\" type=\"email\" placeholder=\"you@company.com\">",
+      "css": ".ds-field-label{display:block;margin-bottom:9px;font:11px var(--font-geist-sans),Arial,sans-serif;color:#d2d2dc;}.ds-field{display:block;width:100%;min-height:42px;padding:10px 12px;border:1px solid #ffffff16;border-radius:5px;background:#0d0d12;color:#dedee7;font:11px var(--font-geist-sans),Arial,sans-serif;transition:border-color .2s,box-shadow .2s;outline:none;}.ds-field::placeholder{color:#858591;opacity:1;}.ds-field:focus-visible{border-color:#a5a6ff99;box-shadow:0 0 0 3px #6366f11b;outline:0;}.ds-field[aria-invalid=\"true\"]{border-color:#dd8b9066;}@media(max-width:480px){.ds-field{font-size:16px;min-height:46px;}.ds-field::placeholder{font-size:12px;}}"
+    },
+    {
+      "name": "Desktop Navigation",
+      "kind": "nav",
+      "description": "Company route links; mobile uses the native dialog described in DESIGN.md.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Company\"><a href=\"/products\" aria-current=\"page\">Products</a><a href=\"/about\">About</a><a href=\"/contact\">Contact</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:31px;}.ds-nav a{font:12px var(--font-geist-sans),Arial,sans-serif;color:var(--muted,#a1a1aa);text-decoration:none;transition:color .2s;}.ds-nav a:hover,.ds-nav a[aria-current]{color:var(--foreground,#fafafa);}.ds-nav a:focus-visible{outline:2px solid var(--ring,#a5a6ff);outline-offset:5px;border-radius:3px;}"
+    },
+    {
+      "name": "Development Badge",
+      "kind": "chip",
+      "description": "Noninteractive label disclosing development status.",
+      "html": "<span class=\"ds-badge\"><span class=\"ds-dot\"></span>In development</span>",
+      "css": ".ds-badge{display:inline-flex;gap:7px;align-items:center;border:1px solid #9c9fff23;background:#6366f10a;color:#b7b7d2;padding:5px 8px;border-radius:5px;font:400 9px/1.4 var(--font-geist-sans),Arial,sans-serif;}.ds-dot{width:5px;height:5px;flex-shrink:0;border-radius:50%;background:var(--accent-soft,#a5a6ff);}"
+    },
+    {
+      "name": "Lead Form Surface",
+      "kind": "card",
+      "refersTo": "lead-form",
+      "description": "Surface used by contact and early-access forms; submission behavior remains in the actual LeadForm.",
+      "html": "<section class=\"ds-form\"><h2>Your business. Your perspective.</h2><p>Fields marked with * are required.</p></section>",
+      "css": ".ds-form{background:var(--surface,#111116);border:1px solid #ffffff10;border-radius:12px;padding:31px;min-width:0;font-family:var(--font-geist-sans),Arial,sans-serif;}.ds-form h2{margin:0;color:var(--foreground,#fafafa);font-size:21px;line-height:1.3;font-weight:500;letter-spacing:-.03em;}.ds-form p{margin:11px 0 0;color:var(--muted,#a1a1aa);font-size:10px;line-height:1.75;}@media(max-width:767px){.ds-form{padding:27px;}}@media(max-width:480px){.ds-form{padding:23px 20px;}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Connected systems",
+    "overview": "Polysyne's company identity uses independent geometric modules sharing a coherent foundation. The built world is dark first, restrained, and spacious: white and muted headlines, indigo actions, thin dividers, and layered charcoal surfaces. Geist supplies a consistent voice across company pages and the Opero concept.\n\nThe marketing site establishes Polysyne as the company; Opero has its own wordmark and quieter indigo/cyan accents within that same system. The company hero pairs asymmetric typography with interlocking sculptural rings. Open principles, process sequences, product previews, and larger statements vary the reading rhythm. These are existing surface compositions, rather than a required template for every future page.",
+    "keyCharacteristics": [
+      "Dark charcoal surfaces with restrained indigo and cyan accents.",
+      "Geist Sans hierarchy and compact Geist Mono labels.",
+      "Open layouts, generous section separation, and low-opacity borders.",
+      "Geometric brand media and explicitly labeled conceptual product interfaces.",
+      "Native controls, visible focus, honest form states, and reduced-motion support."
+    ],
+    "rules": [],
+    "dos": [
+      "**Do** preserve Polysyne as the company and Opero as its flagship product in development.",
+      "**Do** use the existing dark palette, Geist typography, shared controls, and responsive container.",
+      "**Do** use action indigo for readable primary-button text while retaining brand indigo in the identity.",
+      "**Do** retain visible focus, native keyboard behavior, field labels, truthful feedback, and preference handling.",
+      "**Do** label illustrative interfaces, sample data, intended capabilities, and conceptual architecture."
+    ],
+    "donts": [
+      "**Don't** invent customers, company metrics, testimonials, personnel, certifications, contact details, or production readiness.",
+      "**Don't** show submission success before explicit durable backend acceptance.",
+      "**Don't** remove conceptual/development labels when extending an Opero preview.",
+      "**Don't** require the desktop sculpture, sidebar, or multicolumn forms to persist on narrow screens.",
+      "**Don't** turn one page's composition into a mandatory layout for every future surface."
+    ]
+  }
+}
